@@ -1,0 +1,135 @@
+﻿/* CSS Document */
+.wrapper{
+	 width:1100px; 
+	 margin:0 auto;
+	 }
+/*content*/
+.content{
+	height:749px; 
+	width:1072px;
+	position:relative;
+	}
+.content .hide{
+	display:none;
+	}
+.content .pagebox{ 
+	position:absolute;
+	bottom:40px;
+	right:25px;
+	}
+.content .pagebox img{
+	margin-right:5px;
+	width:122px;
+	height:87px; 
+	 }
+.content .pagebox .noactive{
+	border:2px solid #CCC;
+	}
+.content .pagebox .active{ 
+	border:2px solid #ff0;
+}
+/*info*/
+.info{
+	position:relative;
+	}
+.info .up{ 
+	background:url(../img/njbg01.jpg) no-repeat; 
+	width:1034;
+	height:690px;
+	margin-top:20px; 
+	position:relative;
+	}
+.info .up p{
+	font-size:18px;
+	color:#634e82;
+	 position:absolute;
+	 top:22px;
+	 left:40px;
+	 }
+.info .attractions .pass{
+	letter-spacing:2px; 
+	position:absolute;
+	top:88px ;
+	left:75px;
+	}
+.info .attractions .p1{ 
+	color:#f29803; 
+	font-size:26px;
+    }
+.info .attractions .p2{
+	font-size:14px;
+	color:#9d5e7b; 
+	}
+.info .attractions .p3{
+	font-size:28px;
+	color:#d6c6a4;
+	}
+.info  .attractions .attr{ 
+	position:absolute;
+	top:152px; 
+	left:220px;
+	}
+.info .attractions .img1{ 
+	margin-left:140px; 
+	position:absolute;
+	top:220px;
+	height:447px;
+	}
+.info .attractions .mess{ 
+	background:url(../img/njyinhao.jpg) no-repeat;
+	width:860px;
+	height:99px; 
+	margin-left:78px; 
+	}
+.info .attractions .mess span{ 
+	font-size:14px;
+	color:#ba9bad;
+	line-height:24px;
+	width:640px;
+	display:inline-block; 
+	margin-left:100px;
+	}
+/*showcase*/
+.showcase{
+	height:800px;
+	}
+.showcase h3{ 
+	font-size:28px;
+	color:#f39800; 
+	font-family:"宋体"; 
+	background:url(../img/njshow.jpg) no-repeat left center; 
+	width:60px; 
+	height:40px;
+	text-indent:50px;
+	letter-spacing:2px; 
+	margin-top:15px;
+	}
+.showcase p.rela{
+	font-size:16px;
+	color:#ababab;
+	letter-spacing:11px; 
+	margin:0 0  20px 58px;
+	}
+.showcase ul{
+	width:100%;
+	height:278px;
+	}
+.showcase ul li{ 
+	float:left; 
+	margin:10px 0 0 20px;
+	}
+.showcase ul p{ 
+	text-align:center;
+	font-size:14px;
+	color:#62224a;
+	}
+.cssshadow 
+   {
+    -moz-box-shadow: 3px 3px 4px #000;
+    -webkit-box-shadow: 3px 3px 4px #000;
+    box-shadow: 3px 3px 4px #000;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+   }

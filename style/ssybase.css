@@ -1,0 +1,94 @@
+/* CSS Document */
+*{margin: 0;padding: 0;}
+body{font-size:12px;font-family: "微软雅黑";color: #000;	background:url(../img/ssybg.jpg) no-repeat; height:5944px;width:100%; position:relative;}
+a{text-decoration:none;color:#333333;}
+img{border:none;}
+ul li,ol li,dl dt dd{list-style:none;}
+.clearfix:after{content:""; display:block; clear:both; height:0; font-size:0; visibility:hidden;}
+.clearfix{zoom:1;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+/*top*/
+.top{ background:url(../img/ssytop.jpg) no-repeat;height:1324px; position:relative; width:100%;color:#fff;}
+.top h1.spe1{font-size:104px; position:relative; top:118px;left:500px;width:300px;height:100px;}
+.top h1.spe2{font-size:104px; position:relative; top:210px;left:288px;height:100px;width:400px; }
+.top h3{font-size:40px;position: absolute; top:450px;left:288px;}
+.top .cont{ width:860px;height:332px; position:absolute;top:760px;left:388px; }
+.top .cont h4{font-size:44px;line-height:66px;}
+.top .cont p{font-size:34px;line-height:50px; text-align:center;}
+.top .cont p strong{ color:#f1f311;}
+.top .cont  h1{ font-size:58px; text-align:center; margin-top:20px;}
+.top .cont ul {width:845px; margin-top:12px;}
+.top .cont ul li{ float:left;font-size:20px;line-height:69px;font-weight:bold; text-indent:68px; margin-right:20px;}
+.top .cont ul li a{color:#fff;}
+.top ul .tab1{ background:url(../img/ssybiao1.jpg) no-repeat;width:257px;height:69px;}
+.top ul .tab2{ background:url(../img/ssybiao2.jpg) no-repeat; width:255px;height:64px;}
+.top ul .tab3{ background:url(../img/ssybiao3.jpg) no-repeat;width:272px;height:69px;}
+.top .cont .circle{ width:1145px;heihgt:254px;position:absolute;top:419px;right:-80px;}
+.top .cont .cir{ float:left; background:url(../img/ssyyuan1.jpg) no-repeat; width:254px;height:253px; margin-right:20px;}
+.top .cont .cir h1{font-size:64px;color:#f61621; padding-top:36px;}
+.top .cont .cir p{color:#e34248;font-size:24px; text-align:center;}
+
+
+/*detial01*/
+.detail01{height:1036px; background:#3d2519;color:#fff; text-align:center;}
+.detail01 a{color:#fff; }
+.detail01 h1{ padding-top:120px;font-size:74px; font-weight:normal;letter-spacing:20px;}
+.detail01 h2{ font-size:76px; font-weight:bold;}
+.detail01 .p1{ font-size:46px; margin-top:30px;}
+.detail01 .p2{font-size:46px;}
+.detail01 .p2 strong{color:#ecbe06;font-size:72px;}
+.detail01 .p3{font-size:20px; }
+.detail01 ul { margin:20px 0 0 50px;}
+.detail01 ul li{ float:left; text-align:center; margin-left:58px;}
+.detail01 ul li a{color:#fff;font-size:28px;}
+.detail01 .man{padding:35px 0;}
+
+/*detial02*/
+.detail02{height:1036px; background:#eec008;color:#fff; text-align:center;}
+.detail02 a{color:#fff; }
+.detail02 h1{font-size:74px; font-weight:normal;letter-spacing:20px;}
+.detail02 h2{ font-size:76px; font-weight:bold;}
+.detail02 .p1{ font-size:46px; margin-top:30px;}
+.detail02 .p2{font-size:46px;}
+.detail02 .p2 strong{color:#ecbe06;font-size:72px;}
+.detail02 .p3{font-size:20px; }
+.detail02 .imgbox{ width:1022px;height:604px; margin:0 auto;}
+.detail02 .mid{width:288px; float:left; margin-left:5px;}
+.detail02 .mid img{ margin-bottom:13px;}
+.detail02 .mid .spe{ margin-bottom:0;}
+.detail02  .fr{ width:272px; float:left; margin-left:5px;}
+.detail02  .fr .spec{ margin-top:12px;}
+
+
+
+/*detial03*/
+.detail03{height:1036px; background:#fe7612;color:#fff; text-align:center;}
+.detail03 a{color:#fff; }
+.detail03 h1{font-size:74px; font-weight:normal;letter-spacing:20px;}
+.detail03 h2{ font-size:76px; font-weight:bold;}
+.detail03 .p1{ font-size:46px; margin-top:30px;}
+.detail03 .p2{font-size:46px;letter-spacing:8px;}
+.detail03 .p2 strong{color:#ecbe06;font-size:72px;}
+.detail03 .p3{font-size:20px; }
+
+
+
+/*detial04*/
+.detail04{height:980px; background:#3e2e6d;text-align:center;}
+.detail04  a{color:#fff; }
+.detail04  h1{font-size:74px; font-weight:normal;letter-spacing:20px;}
+.detail04  h2{ font-size:76px; font-weight:bold;}
+.detail04  .p1{ font-size:46px; margin-top:30px;}
+.detail04  .p2{font-size:46px;letter-spacing:8px;}
+.detail04  .p2 strong{color:#ecbe06;font-size:72px;}
+.detail04  .p3{font-size:20px; }
+
+
+/*foot*/
+.foot{ background:url(../img/ssyfoot.jpg) no-repeat; height:537px; position:relative;}
+.foot .conten{ position:absolute;top:100px;left:385px;}
+.foot .contactus{position:absolute;top:60px;left:60px; }
+.foot .jiezhi{position:absolute;top:145px;left:0;}
+

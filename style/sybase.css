@@ -1,0 +1,94 @@
+/* CSS Document */
+
+
+.wrapper{ width:1100px; margin:0 auto;}
+
+
+/*banner*/
+.banner{width:100%;height:461px; position:relative; margin:0 auto; overflow:hidden; }
+.banner .imgbox{height:461px; width:100%;}
+.banner .numbox {position:absolute;bottom:20px; left:0; width:100%; text-align:center;}
+.banner .numbox  a{ background:url(../img/hytb1.png) no-repeat; width:18px;height:18px;margin-left:35px;display:inline-block;}
+/*.banner .numbox  a.active,.banner .numbox a:hover{ background:url(../img/hytb2.png) no-repeat; width:18px;height:18px;}*/
+.banner .numbox  a.active{background:url(../img/hytb2.png) no-repeat;}
+
+
+/*activities*/
+.activities{ heihgt:980px;}
+.activities .title{ height:88px;padding-top:7px;}
+.activities .title .yhhd{ float:left;}
+.activities .title .line{ float:right;}
+.activities .fgx{ background:url(../img/syfgx.jpg) repeat-x;height:18px; }
+.activities .content h4{font-size:20px; text-align:center; margin-top:35px;color:#030303;}
+.activities .content p{ font-size:14px;text-align:center; margin:10px 0 20px 0;color:#030303;}
+.activities .content img,.service { margin-left:50px;}
+.activities .service h2 { margin-top:20px;color:#f47a77;font-size:22px;}
+.activities .service ul{ background:url(../img/syfwlc.jpg) no-repeat; width:1056px; height:111px; margin-top:10px;}
+.activities .service ul li{ float:left;height:66px; display:inline; text-align:center; margin:0 22px; }
+.activities .service ul li a{color:#f1827b;}
+.activities .service ul li h1{ margin:25px 0 -30px 0;font-size:26px;}
+.activities .service ul li h4 {font-size:16px;color:#f1827b;}
+.activities .service ul li p {font-size:10px;color:#f1827b;letter-spacing:-1px;}
+
+
+
+/*interior*/
+.interior{ height:878px;}
+.interior .title{ height:82px;margin-top:40px;}
+.interior .title .njzs{float:left;}
+.interior .title .line{float:right; }
+.interior .fgx{ background:url(../img/syfgx.jpg) repeat-x;height:20px; }
+.interior .content ul li {float:left; margin:18px ; text-align:center;font-size:14px;}
+.interior .content ul li img{ transition-duration:2s;}
+.interior .content ul li img:hover{ transform:scale(1.05);}
+.interior .content ul li  P{ margin-top:5px;}
+.interior .content ul li  P {color:#6b405b;font-size:16px; }
+.interior .content ul li  span{ margin-right:110px;}
+
+
+/*exterior*/
+.exterior{ heihgt:620px;}
+.exterior .title{ height:74px;margin-top:30px;}
+.exterior .title .wjzs{ float:left;}
+.exterior .title .line{float:right; }
+.exterior .fgx{ background:url(../img/syfgx.jpg) repeat-x;height:20px; }
+.exterior .content{ margin-top:20px;height:510px;}
+.imgl{ width:400px;margin-left:24px;display:inline;}
+.imgl a p{color:#6b405b;font-size:16px;}
+.imgl img{ margin-left:10px;}
+.imgr{ width:650px; margin-left:3px;display:inline;}
+.imgl p{margin-top:15px; text-align:center;}
+.imgl span{margin-right:110px;}
+.imgr ul{ margin-left:20px;}
+.imgr   ul li{ float:left; text-align:center; margin:0 26px 18px 10px; display:inline;}
+.imgr  ul li a{color:#6b405b;font-size:16px; text-align:center; }
+.imgr  ul lia  p{ width:278px; text-align:center; margin-top:10px;}
+.imgr  ul li a span{ margin-right:60px;}
+
+
+/*ganen*/
+.ge{ margin-top:30px;}
+
+/*pringles*/
+.pringles{ height:870px;}
+.pringles .title{ height:88px;margin-top:40px;}
+.pringles .title .kpzs{ float:left;}
+.pringles .title .line{float:right; }
+.pringles .fgx{ background:url(../img/syfgx.jpg) repeat-x;height:20px; }
+.pringles .content ul li { float:left; margin:18px ; text-align:center;font-size:14px;}
+.pringles .content ul li  P{ margin-top:5px;}
+.pringles .content ul li  P {color:#6b405b;font-size:16px; }
+.pringles .content ul li  span{ margin-right:110px;}
+
+
+
+
+/*quotation*/
+.quotation{ heihgt:790px;}
+.quotation .title{ height:80px;margin-top:40px;}
+.quotation .title .cpbj{ float:left;}
+.quotation .title .line{float:right; }
+.quotation .fgx{ background:url(../img/syfgx.jpg) repeat-x;height:20px; }
+.quotation .content img{ margin:20px 20px 0 20px;}
+
+

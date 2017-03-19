@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link  href="style/sybase.css" rel="stylesheet" type="text/css"/>
+<link  href="style/base.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jQuery.js"></script>
+<script>
+$(function(){
+	var i=0;
+	function move(){
+	i++
+	if(i==$("#imgbox img").size())
+	{
+		i=0
+	}
+	$("#imgbox img").eq(i).show().siblings().hide();
+	$(".numbox a").eq(i).addClass("active").siblings().removeClass("active")
+	}	
+	setInterval(move,1000)
+	$(".numbox a").mousemove(function(){
+		$(this).addClass("active").siblings().removeClass("active")
+		$("#imgbox img").eq($(this).index()).show().siblings().hide();
+		})
+})	
+</script>
+</head>
+
+<body>
+<!--top-->
+<div class="top wrapper">
+	<div class="fl welcom">
+    	<span>你好，欢迎来到完美新娘婚纱摄影!</span>
+        <span>请<a href="login.html" class="login hoverBcolor" name="hoverBcolor">登录</a>&nbsp;&nbsp;<a href="register.html" class="register">免费注册</a></span>
+    </div>
+    <div class="fr links">
+    	<a  class="phone hoverBcolor" href="" name="hoverBcolor">手机客户</a>|<a class="sp hoverBcolor" href="" name="hoverBcolor">商铺管理</a>|<a class="sc hoverBcolor" href="" name="hoverBcolor">收藏本站</a>
+    </div>
+</div>
+<!--logo-->
+<div class="logo wrapper">
+	<a class="aaa" href=""><img src="img/logo.jpg"/></a>
+	<div  class="search fr">
+    	<form action="" method="post" onsubmit="" id="myform">
+        	<input  class="text" type="text" name="mysearch" value="" placeholder="Search..."/>
+           	<input class="sub" type="submit" name="submit" value="" />
+            <p>关键字：<a href="">三亚</a>&nbsp;<a href="">洛丽塔</a>&nbsp;<a href="">毛里求斯</a></p>
+        </form>
+    </div>
+</div>
+<!--nav-->
+<div class="nav clearfix">
+	<div class="nav01 wrapper ">
+    	<ul id="hover">
+        	<li ><a  class="bgBefore" href="index.html" >首页</a><span>|</span></li>
+        	<li ><a class="bgBefore" href="innershow.html">内景展示</a><span>|</span></li>
+        	<li ><a class="bgBefore" href="outshow.html">外景展示</a><span>|</span></li>
+        	<li ><a class="bgBefore" href="movie.html">微电影</a><span>|</span></li>
+        	<li ><a class="bgBefore"  href="productprice.html">产品报价</a><span>|</span></li>
+        	<li ><a class="bgBefore"  href="Member.html">会员中心</a></li>
+        </ul>
+    </div>
+</div>
+<!--banner轮播图-->
+<div class="banner" id="banner">	
+        <div class="imgbox" id="imgbox"> 
+        	<img src="img/sybanner1.jpg">
+            <img src="img/sybanner2.jpg"/>
+            <img src="img/sybanner3.jpg"/>
+            <img src="img/sybanner4.jpg"/>
+        </div>
+        <div class="numbox">
+            <a class="active" href="#"></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>    
+</div>
+
+<!--preferential activities-->
+<div class="activities ">
+	<div class="title wrapper">
+    	<a  href=""><img class="yhhd" src="img/syyhhd.jpg"/></a>
+        <img  class="line" src="img/syline.jpg"/>
+    </div>
+    <div class="fgx"></div>
+    <div class="content wrapper">
+    	<h4>777元抢定婚纱照——七夕专场百万情人力保大返送&nbsp;总有一款适合你</h4>
+        <p>活动结束时间：2015-08-20&nbsp;&nbsp;已有1165人对该活动有兴趣</p>
+        <a href=""><img src="img/syqixi.jpg"/></a>
+    <div class="service">
+    	<h2>整体服务流程</h2>
+        <ul>
+        	<li><a href="">
+                <h1>01</h1>
+                <h4>网上预约</h4>
+                <p>ONLINE&nbsp;BOOKIING</p>								
+           </a></li>           
+            <li><a href="">
+                <h1>02</h1>
+                <h4>套系选购</h4>
+                <p>SERS&nbsp;SELECT</p>								
+            </a></li>
+            <li><a href="">
+                <h1>03</h1>
+                <h4>确认档期</h4>
+                <p>CONFIRM&nbsp;DATE</p>								
+            </a></li>
+            <li><a href="">
+                <h1>04</h1>
+                <h4>选装服务</h4>
+                <p>DRESSEES&nbsp;SELECT</p>								
+            </a></li>
+            <li><a href="">
+                <h1>05</h1>
+                <h4>拍摄服务</h4>
+                <p>PHOTOCTAPH</p>								
+            </a></li>
+            <li><a href="">
+                <h1>06</h1>
+                <h4>选片服务</h4>
+                <p>FILMS&nbsp;SELECT</p>								
+            </a></li>
+            <li><a href="">
+                <h1>07</h1>
+                <h4>设计服务</h4>
+                <p>PHOTO&nbsp;DESIGN</p>								
+            </a></li>
+            <li><a href="">
+                <h1>08</h1>
+                <h4>产品领取</h4>
+                <p>RECEIVE&nbsp;PRODUCTS</p>								
+            </a></li>
+            <li><a href="">
+                <h1>09</h1>
+                <h4>售后服务</h4>
+                <p>AFTER&nbsp;SALE&nbsp;SERVICE</p>								
+            </a></li>
+        </ul>    
+     </div>    
+    </div>
+</div>
+
+
+
+<!--interior introduction-->
+<div class="interior">
+	<div class="title wrapper">
+    	<a  href=""><img class="njzs" src="img/synejing.jpg"/></a>
+        <img  class="line" src="img/syline1.jpg"/>
+    </div>
+    <div class="fgx"></div>
+    <div class="content wrapper">
+    	<ul>
+        	<li><a href="">
+            	<img src="img/sy11.jpg"/>
+                <P><span>蔷薇之恋</span>2015-05-21</P>            
+             </a></li>    
+             <li ><a href="">
+            	<img src="img/sy12.jpg"/>
+                <P><span>洛丽塔</span>2015-07-20</P>            
+             </a></li>    
+             <li><a href="">
+            	<img src="img/sy13.jpg"/>
+                <P><span>韩尚馆</span>2015-03-06</P>            
+             </a></li>    
+             <li><a href="">
+            	<img src="img/sy14.jpg"/>
+                <P><span>私人定制</span>2015-02-13</P>            
+            </a></li>        
+        </ul>    
+    </div>
+</div>
+
+<!--exterior-->
+<div class="exterior">
+	<div class="title wrapper">
+    	<a  href=""><img class="wjzs" src="img/sywaijing.jpg"/></a>
+        <img  class="line" src="img/syline2.jpg"/>
+    </div>
+    <div class="fgx"></div>
+    <div class="content wrapper">
+    	<div class="fl imgl">
+        	<a href=""><img src="img/sy21.jpg"/>
+            <P><span>皇室婚礼</span>2015-05-20</P>        
+        </a></div>
+        <div class="fl imgr">
+        	<ul>
+        	<li><a href="">
+            	<img src="img/sy22.jpg"/>
+                <P><span>香格里拉</span>2015-05-20</P>          
+             </a></li>    
+             <li><a href="">
+            	<img src="img/sy23.jpg"/>
+                <P><span>百万花海</span>2015-07-20</P>            
+             </a></li>    
+             <li><a href="">
+            	<img src="img/sy26.jpg"/>
+                <P><span>爱斐堡</span>2015-06-12</P>            
+            </a></li>  
+              <li><a href="">
+            	<img src="img/sy25.jpg"/>
+                <P><span>毛里求斯</span>2015-07-02</P>            
+             </a></li>
+        </ul> 
+        </div>    	
+    </div>
+</div>
+
+
+<!--ganen-->
+<div class="ge wrapper">
+	<a href=""><img src="img/syganen.jpg"/></a>
+</div>
+
+
+<!--pringles introduction-->
+<div class="pringles">
+	<div class="title wrapper">
+    	<a  href=""><img class="kpzs" src="img/sykepian.jpg"/></a>
+        <img  class="line" src="img/syline1.jpg"/>
+    </div>
+    <div class="fgx"></div>
+    <div class="content wrapper">
+    <div class="content wrapper">
+    	<ul>
+        	<li><a href="">
+            	<img src="img/sy31.jpg"/>
+                <P><span>花香系列</span>2015-06-15</P>            
+             </a></li>    
+             <li ><a href="">
+            	<img src="img/sy32.jpg"/>
+                <P><span>唯爱系列</span>2015-03-20</P>            
+             </a></li>    
+             <li><a href="">
+            	<img src="img/sy33.jpg"/>
+                <P><span>教堂系列</span>2015-05-12</P>            
+             </a></li>    
+             <li><a href="">
+            	<img src="img/sy34.jpg"/>
+                <P><span>纯臻系列</span>2015-07-15</P>            
+            </a></li>        
+        </ul>    
+    </div>
+</div>
+
+
+<!--product quotation-->
+<div class="quotation">
+	<div class="title wrapper">
+    	<a  href=""><img class="cpbj" src="img/sychanpin.jpg"/></a>
+        <img  class="line" src="img/syline3.jpg"/>
+    </div>
+    <div class="fgx"></div>
+    <div class="content wrapper">
+    	<div>
+        	<a href=""><img src="img/sy41.jpg"/></a>
+            <a href=""><img src="img/sy42.jpg"/></a>    
+    		<a href=""><img src="img/sy43.jpg"/></a>
+         </div> 
+         <div>
+        	<a href=""><img src="img/sy44.jpg"/></a>
+            <a href=""><img src="img/sy45.jpg"/></a>    
+    		<a href=""><img src="img/sy46.jpg"/></a>
+         </div> 
+       </div>
+</div>
+<!--footer-->
+<div class="footer">
+	<div class="wrapper">	
+		<div class="up ">
+            <ul>
+                <li>
+                <a href=""><img src="img/f1.jpg"/>
+                <p>中国领先的</p>
+                <p>婚纱摄影网</p></a>
+                </li>
+                <li>
+                <a href=""><img src="img/f2.jpg"/>
+                <p>超10000家</p>
+                <p>品牌商家</p></a>
+                </li>
+                <li>
+                <a href=""><img src="img/f3.jpg"/>
+                <p>口碑信赖超过</p>
+                <p>5000万用户</p></a>
+                </li>
+                <li>
+                <a href=""><img src="img/f4.jpg"/>
+                <p>24小时</p>
+                <p>客户服务</p></a>
+                </li>
+                <li>
+                <a href=""><img src="img/f5.jpg"/>
+                <p>专家为您</p>
+                <p>保驾护航</p>
+                </li></a>
+            </ul>
+   		 </div>
+    <div class="down ">
+		<div class="contact fl">
+        	<img src="img/contact.jpg"/>						  			<strong>+603-7890-3205</strong>       
+        </div>
+        <div class="copy fl">
+        	<p ><a href="">完美新娘婚纱摄影</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">客服热线：8888888</a></p>
+            <P >版权所有&copy;2015完美新娘婚纱摄影</P>
+              <p class="spe"> Copyright©2015&nbsp;Paris&nbsp;wedding&nbsp;photography</p>               
+        </div>       
+        
+         <div class="wx">
+    	<a href=""><img src="img/wx.jpg"/></a>
+    	<p><a href="">官方微信</a></p>
+    </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

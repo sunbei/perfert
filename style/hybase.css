@@ -1,0 +1,23 @@
+﻿/* CSS Document */
+.wrapper{ width:1100px; margin:0 auto;}
+/*content*/
+.content{height:1476px; } 
+.content .up p{font-size:20px;color:#727071;padding-top:22px;}
+.content .left{ background:url(../img/hyleftbg.jpg) no-repeat; width:220px;height:1326px; margin-top:25px;}
+.content .left h2{color:#ac889d;font-size:28px; text-align:center;font-weight:normal; margin-top:15px;}
+.content .left p{ background:url(../img/hybigtb.jpg) no-repeat left center; height:30px;text-indent:30px; margin:30px 0 8px 36px;color:#1b181a;font-size:20px; font-weight:bold; text-indent:32px;}
+.content .left ul li{ text-align:center;}
+.content .left ul li a{background:url(../img/hytb.jpg) no-repeat left  center;padding-left:14px;  margin-bottom:10px; display:inline-block; letter-spacing:1px;font-size:16px;}
+.content .right{background:#faf1f0;  width:840px;height:1326px; margin:25px 0 0 20px;}
+.content .right .stair1{width:906px;height:292px;}
+.content .right .spe{ background:url(../img/hytitlebg.jpg) no-repeat; width:271px;height:49px;font-size:22px;line-height:49px;color:#682c52; text-indent:32px;border-bottom:1px solid #c9acba;width:840px;}
+.stair1 dl{ margin:58px 40px 0 58px ;width:92px; float:left;}    
+.stair1 dl dd{ font-size:16px; text-align:center; } .stair1  .detail{ float:left;margin-top:78px;font-size:14px;}
+.stair1  .detail  p{ margin-bottom:15px;}  		 
+.stair1  .detail span{color:#8d898a; margin-right:60px;font-size:18px;}		 
+.stair1  .detail strong{color:#682c52;}		 
+.content .right .stair2{height:160px;}
+.stair2 span{font-size:18px;color:#8d898a; margin-right:60px;  margin:44px 0 0 50px;display:inline-block;}
+.content .right .stair3 ul li{float:left; margin:30px; text-align:center;}
+.stair3 ul li p{font-size:22px;color:#682c52; margin-bottom:5px;}
+.stair3 ul li span{ color:#939393; text-decoration:line-through; margin-left:18px;}

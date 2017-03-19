@@ -1,0 +1,28 @@
+/* CSS Document */
+
+.wrapper{ width:1100px; margin:0 auto;}
+
+/*banner*/
+.banner img{ width:100%;}
+
+
+/*content*/
+.content {height:2165px;}
+.content h1{font-size:44px;color:#ea6b00; font-weight:normal; margin-top:60px;}
+.content b{color:#000;}
+.content h1 span{font-size:26px;}
+.content p{font-size:18px;color:#b0afad; margin-top:8px;}
+.content .list{height:64px; margin:22px 0;}
+.content .list li{ float:left;height:54px;line-height:54px; margin-right:58px;}
+.content .list li a{font-size:18px;color:#000; background:url(../img/bjxiangjie.jpg) no-repeat left center;height:53px; text-indent:70px; display:inline-block;}
+.content .imgbox{ width:1184px;height:430px; margin-top:20px;}
+.content .imgbox li{ float:left;background:url(../img/bjtupianbeijing.jpg) no-repeat ; width:276px;height:422px; margin-right:20px; text-align:center;}
+.content .imgbox img{ margin-top:5px;}
+.content .imgbox h3{font-size:34px;color:#979797;}
+.content .imgbox  p{font-size:28px;color:#656565; margin-top:30px;}
+.content .page{ float:right; margin-top:40px;}
+.content .page a{ background:url(../img/bjtb.png) no-repeat; width:42px;height:42px; float:left;line-height:42px; text-align:center;color:#fff; margin-left:18px;}
+
+
+
+

@@ -1,0 +1,47 @@
+/* CSS Document */
+*{margin: 0;padding: 0;}
+body{font-size:12px;font-family: "微软雅黑";color: #000;	background:#e2e8f3; height:6000px;width:100%; position:relative;}
+a{text-decoration:none;color:#333333;}
+img{border:none;}
+ul li,ol li,dl dt dd{list-style:none;}
+.clearfix:after{content:""; display:block; clear:both; height:0; font-size:0; visibility:hidden;}
+.clearfix{zoom:1;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+
+.wrapper{width:1200px; margin:0 auto;}
+/*banner*/
+.banner img{ width:100%;}
+
+/*content*/
+.content{width:972px; margin:0 auto; overflow:hidden;}
+.content ul li{ float:left; margin:0 10px;}
+
+
+/*stair1*/
+.stair1{height:950px;width:100%;position:relative;margin-top:40px;}
+.stair1 .sdbg1{position:absolute;bottom:0;right:0;}
+.stair1 .sd01{position:absolute; right:0;bottom:95px;z-index:3;}
+.stair1 .sdlun1{position:absolute; left:218px;top:27px;z-index:2;}
+
+/*stair2*/
+.stair2{height:950px;width:100%;position:relative;margin-top:20px;}
+.stair2 .sdbg2{position:absolute;bottom:0;right:0;}
+.stair2 .sd02{position:absolute; left:0;bottom:95px;z-index:3;}
+.stair2 .sdlun2{position:absolute; left:284px;top:-65px;z-index:2;}
+
+/*stair3*/
+.stair3{height:950px;width:100%;position:relative; margin-top:20px;}
+.stair3 .sdbg3{position:absolute;bottom:0;right:0;}
+.stair3 .sd03{position:absolute; right:0;bottom:95px;z-index:3;}
+.stair3 .sdlun3{position:absolute; left:218px;top:27px;z-index:2;}
+
+/*stair4*/
+.stair4{height:950px;width:100%;position:relative;margin-top:20px;}
+.stair4 .sdbg4{position:absolute;bottom:0;right:0;}
+.stair4 .sd04{position:absolute; left:0;bottom:95px;z-index:3;}
+.stair4 .sdlun4{position:absolute; left:284px;top:-65px;z-index:2;}
+.stair4 .man{position:absolute; right:0;bottom:0;z-index:2; z-index:8;}
+/*foot*/
+.foot img{ width:100%;}

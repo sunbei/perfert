@@ -1,0 +1,27 @@
+/* CSS Document */
+*{margin: 0;padding: 0;}
+body{font-size:12px;font-family: "simsun";color: #000;	background:url(../img/dlbg.jpg) no-repeat; width:100%;}
+a{text-decoration:none;color:#333333;}
+img{border:none;}
+ul li,ol li,dl dt dd{list-style:none;}
+.clearfix:after{content:""; display:block; clear:both; height:0; font-size:0; visibility:hidden;}
+.clearfix{zoom:1;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+
+.wrapper{width:1200px; margin:0 auto;}
+.logo img.log{ margin:44px 0 10px 0;}
+.line{width:100%;margin-top:35px;}
+.content .fl img{ padding:154px 65px;}
+.content .fr  {width:455px;height:543px;  margin-top:126px; background:url(../img/dlcc.png) no-repeat;}
+.content .fr { float:right;}
+.content .fr  .top{ height:128px;}
+.content .fr h3{ font-size:28px; color:#9d4860; margin:42px 0;float:left; margin-left:30px;}
+.content .fr h4 a{float:right;font-size:18px; color:#9d4860; margin:42px 0; margin-right:50px;font-weight:normal;}
+.content form label{ display:inline-block; width:120px; font-size:18px;color:#9d4860;font-weight:bold; text-align:right; float:left;line-height:32px;}
+.content form p{height:70px; }
+.content form input{ width:242px;height:32px; background:#e8dfd1;border:none; margin-left:20px;font-size:18px; float:left;}
+.content form input.yzm{ width:132px;height:32px;  float:left;}	
+.content form span{ display:inline-block;background:url(../img/dlyzm.jpg) no-repeat; width:91px;height:32px; float:left; margin-left:20px;}
+.content form .btn{ background:url(../img/dldenglu.png) no-repeat; margin:50px 0 0 180px; cursor:pointer; }

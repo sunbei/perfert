@@ -1,0 +1,53 @@
+/* CSS Document */
+*{margin: 0;padding: 0;}
+body{font-size:12px;font-family: "微软雅黑";color: #000;	background:url(../img/bg.jpg) repeat-x; width:100%;}
+a{text-decoration:none;color:#333333;}
+img{border:none;}
+ul li,ol li,dl dt dd{list-style:none;}
+.clearfix:after{content:""; display:block; clear:both; height:0; font-size:0; visibility:hidden;}
+.clearfix{zoom:1;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+/*top*/
+.top{padding-top:10px;height:18px;letter-spacing:1px;}
+.top span{ margin-right:15px;}
+.top span .register{color:#C81623;}
+.top span .register,.top span .login:hover,.phone:hover,.sp:hover,.sc:hover {color:#C81623;}
+.top .links .phone{ background:url(../img/phone.jpg) no-repeat left center; width:10px;height:15px; padding-left:16px; margin-right:12px;}
+.top .links .sp{ background:url(../img/shangpu.jpg) no-repeat left center; width:14px;height:13px; padding-left:16px; margin:0 12px ;}
+.top .links .sc{ background:url(../img/shoucang.jpg) no-repeat left center; width:13px;height:13px; padding-left:16px; margin-left:12px;}
+.hoverBcolor{color:#000;}
+.hoverAcolor{color:#C81623; }
+/*logo*/
+.logo{height:64px; clear:both;padding-top:15px;}
+.logo .aaa{ width:256px;height:57px; float:left;}
+.logo img{ float:left;transform:translate3d(0px, 0px, 0px);opacity:1;}
+.logo .search form{ position:relative; }
+.logo .search form .text{border:none;background:url(../img/search.jpg) no-repeat; width:222px;height:32px;line-height:32px;text-indent:12px;color:#aa6793; font-weight:bold; }
+.logo .search form .sub{ background:url(../img/fdj.jpg) no-repeat; width:22px;height:23px; position:absolute;top:5px; right:16px;border:none;}
+.logo .search form p {margin:12px 0 0 10px;}
+.logo .search form p a{color:#aa6793; margin-left:8px;}
+
+/*nav*/
+.nav{ width:100%;height:40px; margin-top:16px;border-bottom:1px solid #5e243d;border-top:1px solid #5e243d;}
+.nav01 ul li{float:left; heihgt:40px;line-height:40px;}
+.nav01 ul li  a{font-size:14px;padding:0 63px; float:left; }
+.nav01 ul li  a:hover{background:#90537a;}
+/*footer*/
+.footer{  background:#f0f0f0;height:230px;}
+.footer .up{height:70px;}
+.footer .up ul li{ float:left; margin:0 80px;padding-top:20px; }
+.footer .up ul li img:hover{transform:rotate(30deg); -webkit-transform:rotate(30deg); -ms-transform:rotate(30deg);}
+.footer .up ul li p {color:#656565;line-height:20px;}
+.footer .down {height:80px;}
+.footer .down .contact { width:320px;height:45px;margin:35px 60px 0 66PX;}
+.footer .down .contact  img{ float:left; margin-right:20px;}
+.footer .down .contact strong{color:#141414; font-size:14px; background:url(../img/tlphone.jpg) no-repeat left center;height:42px;line-height:50px; text-indent:55px;display:inline-block; }
+.footer .down .copy {float:left; margin:20px 0 0 52px;line-height:18px;}
+.footer .down .copy  p{color:#5b5b5b; margin-bottom:5px; }
+.footer .down .copy  p.spe{margin-bottom:5px;}
+.footer .down .copy  p a{color:#5b5b5b ;  display:inline-block; }
+.footer .down .wx { float:left; width:70px;height:90px;float:right; margin:12px 70px 0 0 ;}
+.footer .down .wx p{ text-align:center;}
+.footer .down .wx p a{ color:#5b5b5b;margin-top:15px;display:inline-block; }
